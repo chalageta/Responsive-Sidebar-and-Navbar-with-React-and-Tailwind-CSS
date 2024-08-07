@@ -1,7 +1,6 @@
 
 import Dashboard from "./components/Dashboard"
 import Siderbar from "./components/Siderbar"
-import Navbar from "./components/Navbar"
 const App = () => {
   return (
   
@@ -9,7 +8,7 @@ const App = () => {
         <div className="flex">
           <Siderbar />
           <Dashboard />
-          <Navbar />
+         
         </div>
   )
 }

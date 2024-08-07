@@ -5,6 +5,11 @@ export default {
     theme: {
       extend: {},
     },
+    variants: {
+      extend: {
+        display: ['focus-within'],
+      },
+    },
     plugins: [],
   };
   
